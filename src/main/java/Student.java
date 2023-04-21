@@ -55,7 +55,7 @@ public class Student {
     public String toString() {
         final StringBuilder sb = new StringBuilder("Студент {");
         sb.append("ФИО: ").append(getFullName());
-        sb.append(", Код университета: ").append(getUniversityId());
+        sb.append(", id университета: ").append(getUniversityId());
         sb.append(", Номер текущего курса: ").append(getCurrentCourseNumber());
         sb.append(", Средний балл: ").append(getAvgExamScore());
         sb.append("}");

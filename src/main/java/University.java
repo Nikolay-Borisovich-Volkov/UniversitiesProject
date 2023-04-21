@@ -64,10 +64,10 @@ public class University {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Университет{");
-        sb.append("Код: ").append(id);
+        final StringBuilder sb = new StringBuilder("Университет {");
+        sb.append("id университета:  ").append(id);
         sb.append(", Полное название: ").append(getFullName());
-        sb.append(", Краткое название: ").append(getShortName());
+        sb.append(", Аббревиатура: ").append(getShortName());
         sb.append(", Год основания: ").append(getYearOfFoundation());
         sb.append(", Основная специализация: ").append(getMainProfile());
         sb.append('}');
